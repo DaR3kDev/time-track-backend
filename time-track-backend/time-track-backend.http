@@ -1,0 +1,6 @@
+@time_track_backend_HostAddress = http://localhost:5266
+
+GET {{time_track_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

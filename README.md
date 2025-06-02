@@ -87,7 +87,7 @@ Este proyecto sigue el enfoque de **Clean Architecture**, dividiendo responsabil
 
 Puedes levantar una instancia de PostgreSQL local usando Docker:
 ```bash
-docker-composer uo -d
+docker-composer up -d
 ```
 
 ---

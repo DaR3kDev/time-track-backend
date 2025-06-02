@@ -1,0 +1,54 @@
+# Archivos del entorno de desarrollo de Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# Dependencias (nuget, paquetes)
+*.nupkg
+packages/
+*.snupkg
+
+# Archivos de publicación
+.publish/
+*.publish.xml
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.log
+*.svclog
+
+# Configuración de Rider/Resharper
+.idea/
+*.DotSettings.user
+
+# Secretos de entorno
+.env
+*.env.*
+!.env.example
+
+# Archivos de base de datos de desarrollo
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de docker temporales
+**/pgdata/
+docker-compose.override.yml

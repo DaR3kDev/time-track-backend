@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("time-track-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de0a73659850b511f84f3eb9a30420c6f634185d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71515cd9a0e75eaab360fc271667cae2c6b8de10")]
 [assembly: System.Reflection.AssemblyProductAttribute("time-track-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("time-track-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

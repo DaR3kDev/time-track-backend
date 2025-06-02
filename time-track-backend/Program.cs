@@ -4,7 +4,7 @@ using Persistence.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-Env.Load();
+Env.Load("../.env");
 
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddControllers();
@@ -14,7 +14,6 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
     app.MapOpenApi();
-
 
 app.UseHttpsRedirection();
 
